@@ -10,8 +10,35 @@
             <mxPoint x="576" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D4plxpy9fxAuNbjIcbzf-12" value="平" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="180" y="260" width="40" height="30" as="geometry" />
+        <mxCell id="D4plxpy9fxAuNbjIcbzf-12" value="水上开" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D4plxpy9fxAuNbjIcbzf-13" value="水下收" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D4plxpy9fxAuNbjIcbzf-14" value="水上收" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D4plxpy9fxAuNbjIcbzf-15" value="水下开" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D4plxpy9fxAuNbjIcbzf-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.033;exitY=0.356;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="D4plxpy9fxAuNbjIcbzf-12" target="D4plxpy9fxAuNbjIcbzf-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="270" as="sourcePoint" />
+            <mxPoint x="490" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D4plxpy9fxAuNbjIcbzf-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.033;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.022;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D4plxpy9fxAuNbjIcbzf-15" target="D4plxpy9fxAuNbjIcbzf-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240.02" y="361.55" as="sourcePoint" />
+            <mxPoint x="518.02" y="319.55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D4plxpy9fxAuNbjIcbzf-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.033;exitY=0.444;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D4plxpy9fxAuNbjIcbzf-15" target="D4plxpy9fxAuNbjIcbzf-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="232" y="340.32" as="sourcePoint" />
+            <mxPoint x="510" y="298.32" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
